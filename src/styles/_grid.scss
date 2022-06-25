@@ -1,0 +1,39 @@
+.container{
+    @include container;
+}
+.row{
+    @include row;
+    @include bp(xl){
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+.col{
+    flex: 1 0 0%;
+}
+
+
+
+@each $bp, $width in $grid-breackpoints {
+    @include media($width){
+        @for $i from 1 through $grid-columns {
+            .col-#{$bp}-#{$i}{
+                @include col($i);
+            }
+        }
+    }
+}
+
+@each $bp-min, $width in $grid-breackpoints-min {
+    @include media-min($width){
+        @for $i from 1 through $grid-columns {
+            .col-#{$bp-min}-#{$i}{
+                @include col($i);
+            }
+        }
+    }
+}
+
+
+
+

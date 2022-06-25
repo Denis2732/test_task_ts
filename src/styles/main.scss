@@ -1,0 +1,33 @@
+//*Сброс стилей
+@import "./reset";
+
+//*Переменные
+@import "./variables";
+
+//*Шрифты
+@import "./fonts";
+
+//*Миксины сетки
+@import "./mixins/grid";
+
+//*Сетка
+@import "./grid";
+
+//*Глобальные
+@import "./global";
+
+//*Общие
+@import "./style";
+
+//*Видео
+@import "./video";
+
+//*Кнопки
+@import "./buttons";
+
+//*Кнопки
+@import "./checkbox";
+
+//*Шапка
+@import "./header";
+

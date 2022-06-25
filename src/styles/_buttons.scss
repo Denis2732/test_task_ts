@@ -1,0 +1,30 @@
+.btn {
+    font-size: $fs18;
+    line-height: $lh26;
+    color: $white;
+    padding: 10px 30px;
+    border-radius: 100px;
+    @include bp(sm){
+        padding: 10px 16px;
+        font-size: $fs15;
+        line-height: $lh20;
+    }
+    @include bp(xs){
+        padding: 10px 12px;
+    }
+    cursor: pointer;
+    &_xl{
+        padding: 10px 54px!important;
+        @include bp(xs){
+            padding: 10px 30px!important;
+        }
+    }
+    &_pink {
+        background: $pink;
+        border: 2px solid $pink;
+    }
+    &_transparent {
+        background: transparent;
+        border: 2px solid $grey-3;
+    }
+}

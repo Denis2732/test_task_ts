@@ -1,0 +1,50 @@
+.header {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    background: $white;
+    padding: 20px 0px;
+    z-index: 3;
+    &__nav{
+        max-width: 542px;
+        display: flex;
+        align-items: center;
+        padding: 0px 35px 0px 0px;
+        @include bp(sm){
+            padding: 0px 16px 0px 16px;
+        }
+        @include bp(xs){
+            padding: 0px 10px 0px 10px;
+        }
+        &-link{
+            font-family: $ffmedium;
+            font-size: $fs15;
+            line-height: $lh20;
+            color: $black;
+            cursor: pointer;
+            @include bp(sm){
+                font-size: $fs14;
+            }
+            &:nth-child(2n){
+                margin: 0px 47px;
+                @include bp(sm){
+                    margin: 0px 12px;
+                }
+                @include bp(xs){
+                    margin: 0px 8px;
+                }
+            }
+            &:nth-child(3n){
+                margin-right: 36px;
+                @include bp(sm){
+                    margin-right: 12px;
+                }
+                @include bp(xs){
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+//* Максимальная ширина контейнера
+$container-max-width: 1170px !default;
+
+
+//* Расстояние между элементами
+$grid-gap: 30px !default;
+$grid-gap-side: calc($grid-gap / 2);
+
+
+//* Количество колонок
+$grid-columns: 12;
+
+
+//* Контрольные точки
+$grid-breackpoints: (
+    xxl: 1400px,
+    xl: 1200px,
+    lg: 992px,
+    md: 768px,
+    sm: 576px,
+    xs: 360px,
+) !default;
+//* Контрольные точки
+$grid-breackpoints-min: (
+    xxl: 1400px,
+) !default;
+
+//* font-famyly
+$ff: 'DM Sans', sans-serif;
+$ffmedium: 'DM Sans Medium', sans-serif;
+$ffbold: 'DM Sans Bold', sans-serif;
+
+
+//*font-size
+$fs14: 14px !important;
+$fs15: 15px !important;
+$fs16: 16px !important;
+$fs18: 18px !important;
+$fs22: 22px !important;
+$fs32: 32px !important;
+$fs42: 42px !important;
+$fs58: 58px !important;
+
+
+//*line-height
+$lh20: 20px!important;
+$lh26: 26px!important;
+$lh32: 32px!important;
+$lh42: 42px!important;
+$lh52: 52px!important;
+$lh70: 70px!important;
+
+
+//*colors
+$black: rgba(27, 27, 28, 1);
+$black-2: rgba(34, 34, 40, 1);
+$white: rgba(255, 255, 255, 1);
+$fiolet: rgba(30, 14, 98, 1);
+$blue-2: rgba(21, 20, 57, 0.4);
+$aqua: rgba(37, 218, 197, 1);
+$pink: rgba(233, 58, 125, 1);
+$grey: rgba(52, 52, 61, 1);
+$grey-2: rgba(52, 52, 61, 1);
+$grey-3: rgba(235, 234, 237, 1);
+
+
+
